@@ -1,4 +1,4 @@
-# python
+# Python
 
 
 ## module
@@ -80,6 +80,8 @@ file 에 json data를 기록하기 위한 함수
 기본적으로 객체가 `__getitem __ ()` 메서드를 구현하는 경우를 의미한다.
 즉, 다른 개체를 포함할 수 있는 "컨테이너"인 개체를 뜻한다. 
 여기에는 strings, lists, tuples, and dictionaries 가 포함된다.
+
+https://stackoverflow.com/questions/216972/what-does-it-mean-if-a-python-object-is-subscriptable-or-not
 
 ```python
 dict_list = some_dict.values()
