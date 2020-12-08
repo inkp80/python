@@ -74,6 +74,22 @@ file 에 json data를 기록하기 위한 함수
 ```
 
 
+#### TypeError: 'dict_values' object is not subscriptable
+
+###### subscriptable 이란?
+기본적으로 객체가 `__getitem __ ()` 메서드를 구현하는 경우를 의미한다.
+즉, 다른 개체를 포함할 수 있는 "컨테이너"인 개체를 뜻한다. 
+여기에는 strings, lists, tuples, and dictionaries 가 포함된다.
+
+```python
+dict_list = some_dict.values()
+casted_list = list(dict_list)
+
+# after casting, you can use any kind of subscriptable methods
+casted_list[:-1]
+```
+
+
 ------
 
 ## VS CODE
