@@ -102,3 +102,9 @@ For Windows and Linux:`Ctrl + Shift + Space`
 
 For MacOs:
 `⇧ + ⌘ + Space`
+
+
+## Shell Script
+
+### curl to python request
+https://curl.trillworks.com/
